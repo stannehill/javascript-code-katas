@@ -1,4 +1,6 @@
 /*
+ * Kata 1
+ *
  * Description:
  * Complete the solution so that it takes the object passed in and generates a human readable string from its key/value pairs.
  *
@@ -39,3 +41,21 @@ function solution(pairs){
   return lines.join(",");
 }
 
+
+/*
+ * Kata 2
+ *
+ * Description:
+ * Complete the function so that it returns the number of seconds that have elapsed between the start and end times given. The start/end times are given as Date instances.
+ *
+ * */
+var startDate = new Date(2013, 08, 01);
+var endDate = new Date(2013, 08, 02);
+
+function elapsedSeconds(startDate, endDate){
+  return (endDate - startDate) / 1000; 
+}
+
+// returns 86400
+//
+// No better solutions available
