@@ -59,3 +59,20 @@ function elapsedSeconds(startDate, endDate){
 // returns 86400
 //
 // No better solutions available
+
+
+/*
+ * Kata 3
+ *
+ * Description:
+ * Freeze an object. Prevents new properties from being added to it; prevents existing properties from being removed; 
+ * and prevents existing properties, or their enumerability, configurability, or writability, from being changed. 
+ * In essence the object is made effectively immutable. The method returns the object being frozen.
+ *
+ * */
+
+var frozen = Object.freeze(MrFreeze);
+
+/* Test */
+Test.expect(true, frozen === Object.freeze(MrFreeze));
+
